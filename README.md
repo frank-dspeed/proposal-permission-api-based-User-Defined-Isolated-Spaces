@@ -9,6 +9,7 @@ a context (at present only url scope is possible so origin)
 - https://github.com/balvin-perrie/Access-Control-Allow-Origin---Unblock/issues
   - This shows how to manipulate the headers for the cross origin resources to work together without problems
   - but the code needs some extra features to get stuff like alibaba working.
+- https://groups.google.com/a/chromium.org/g/chromium-extensions/c/Auo0HwzsyG0 cross origin isolation in chrome-extension:// urls via manifest
 
 The idea is to pass such a cross origin isolated context to existing contexts via a pks (pre known secret) like contextId to enable cross context communication via for example 
 
